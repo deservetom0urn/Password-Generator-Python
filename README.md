@@ -1,8 +1,17 @@
 # Simple Password Generator
 
-A simple Python project for generating secure random passwords based on the character length and number of passwords specified by the user.
+This is a simple Python project that generates random passwords based on the user's preferences. The user can choose how many passwords they want and how many characters each password should contain.
 
-### Features & Code Logic:
-* **Dynamic Input:** Accepts direct input from the user to determine the number of passwords and their length.
-* **Nested Loop:** Uses a nested loop to randomly generate characters one by one.
-* **Randomization:** Utilizes the built-in `random` library (`random.choice`) to ensure the randomness of the generated passwords.
+## 🛠️ What I Built
+
+* Allows users to enter the number of passwords they want to generate.
+* Lets users choose the length of each password.
+* Randomly selects characters to create secure passwords.
+* Generates multiple passwords in one run.
+
+## 📋 Features
+
+* Built with **Python**
+* Uses the `random` library to generate random characters
+* Accepts user input for password length and quantity
+* Uses loops to generate each password character by character
